@@ -1,7 +1,7 @@
 [submodule "qtbase"]
 	path = qtbase
 	url = ../qtbase.git
-	branch = 5.14.2
+	branch = ku_wip/webassembly2
 	status = essential
 [submodule "qtsvg"]
 	depends = qtbase
