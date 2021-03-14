@@ -31,7 +31,7 @@
 	status = essential
 	priority = 30
 [submodule "qtdoc"]
-	depends = qtdeclarative qttools
+	depends = qttools
 	recommends = qtmultimedia qtquickcontrols qtquickcontrols2
 	path = qtdoc
 	url = https://github.com/qt/qtdoc.git
@@ -65,14 +65,14 @@
 	branch = 5.14.2
 	status = addon
 [submodule "qtvirtualkeyboard"]
-	depends = qtbase qtdeclarative qtsvg
+	depends = qtbase qtsvg
 	recommends = qtmultimedia qtquickcontrols
 	path = qtvirtualkeyboard
 	url = https://github.com/qt/qtvirtualkeyboard.git
 	branch = 5.14.2
 	status = addon
 [submodule "qtscxml"]
-	depends = qtbase qtdeclarative
+	depends = qtbase
 	path = qtscxml
 	url = https://github.com/qt/qtscxml.git
 	branch = 5.14.2
