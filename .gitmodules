@@ -18,7 +18,7 @@
 	status = deprecated
 [submodule "qttools"]
 	depends = qtbase
-	recommends = qtdeclarative qtactiveqt
+	recommends = qtactiveqt
 	path = qttools
 	url = https://github.com/qt/qttools.git
 	branch = 5.14.2
@@ -32,7 +32,6 @@
 	priority = 30
 [submodule "qtdoc"]
 	depends = qttools
-	recommends = qtmultimedia qtquickcontrols qtquickcontrols2
 	path = qtdoc
 	url = https://github.com/qt/qtdoc.git
 	branch = 5.14.2
@@ -52,21 +51,18 @@
 	status = addon
 [submodule "qtwebsockets"]
 	depends = qtbase
-	recommends = qtdeclarative
 	path = qtwebsockets
 	url = https://github.com/qt/qtwebsockets.git
 	branch = 5.14.2
 	status = addon
 [submodule "qtcharts"]
 	depends = qtbase
-	recommends = qtdeclarative qtmultimedia
 	path = qtcharts
 	url = https://github.com/qt/qtcharts.git
 	branch = 5.14.2
 	status = addon
 [submodule "qtvirtualkeyboard"]
 	depends = qtbase qtsvg
-	recommends = qtmultimedia qtquickcontrols
 	path = qtvirtualkeyboard
 	url = https://github.com/qt/qtvirtualkeyboard.git
 	branch = 5.14.2
@@ -79,7 +75,6 @@
 	status = addon
 [submodule "qtremoteobjects"]
 	depends = qtbase
-	recommends = qtdeclarative
 	path = qtremoteobjects
 	url = https://github.com/qt/qtremoteobjects.git
 	branch = 5.14.2
