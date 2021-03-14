@@ -18,7 +18,6 @@
 	status = deprecated
 [submodule "qttools"]
 	depends = qtbase
-	recommends = qtactiveqt
 	path = qttools
 	url = https://github.com/qt/qttools.git
 	branch = 5.14.2
