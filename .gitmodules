@@ -29,13 +29,6 @@
 	branch = 5.14.2
 	status = essential
 	priority = 30
-[submodule "qtdoc"]
-	depends = qttools
-	path = qtdoc
-	url = https://github.com/qt/qtdoc.git
-	branch = 5.14.2
-	status = essential
-	priority = 40
 [submodule "qtrepotools"]
 	path = qtrepotools
 	url = https://github.com/qt/qtrepotools.git
@@ -64,12 +57,6 @@
 	depends = qtbase qtsvg
 	path = qtvirtualkeyboard
 	url = https://github.com/qt/qtvirtualkeyboard.git
-	branch = 5.14.2
-	status = addon
-[submodule "qtscxml"]
-	depends = qtbase
-	path = qtscxml
-	url = https://github.com/qt/qtscxml.git
 	branch = 5.14.2
 	status = addon
 [submodule "qtremoteobjects"]
